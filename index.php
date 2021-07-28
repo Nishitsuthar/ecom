@@ -21,7 +21,7 @@
                     </div>
                     <div class="col-lg-6 col-sm-5 col-xs-12 col-md-5">
                         <div class="slide__thumb">
-                            <img src="images/slider/fornt-img/1.png" alt="slider images">
+                            <img src="images/slider/1.png" alt="slider images">
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
                     </div>
                     <div class="col-lg-6 col-sm-5 col-xs-12 col-md-5">
                         <div class="slide__thumb">
-                            <img src="images/slider/fornt-img/2.png" alt="slider images">
+                            <img src="images/slider/2.png" alt="slider images">
                         </div>
                     </div>
                 </div>
@@ -85,8 +85,8 @@
                                 <div class="fr__product__inner">
                                     <h4><a href="product-details.html"><?php echo $list['name'] ?></a></h4>
                                     <ul class="fr__pro__prize">
-                                        <li class="old__prize"><?php echo $list['mrp'] ?></li>
-                                        <li><?php echo $list['price'] ?></li>
+                                        <li class="old__prize">MRP : <?php echo $list['mrp'] ?></li>
+                                        <li>Price : <?php echo $list['price'] ?></li>
                                     </ul>
                                 </div>
                             </div>
